@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}
+
+	Application Response
+	
+{% endblock %}
+
+{% block content %}
+
+    Thank you, {{ first_name }}, for applying to be a {{ job }}!
+    <br>
+    You stated that your minimum salary requirement is ${{ salary_req }}.
+    <br><br>
+    We'll make sure keep you in our files as {{ first_name }} {{ last_name }}!
+    <br><br>
+    Go back to the <a href="/">Careers Homepage</a>.
+{% endblock %}
